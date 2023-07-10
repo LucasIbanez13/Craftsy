@@ -1,0 +1,30 @@
+.home__main{
+    margin: 0 5px;
+    padding: 5px;
+    background-image: url("/public/img/bg-2.png");
+}
+.home__main__productos{
+    display: flex;
+    flex-direction: column;
+}
+.home__main__productos__box-div{
+    margin: 0px;
+}
+.home__main__productos__box{
+    display: flex;
+    flex-direction: column;
+}
+.home__main__productos__box--product img{
+    width: 100%;
+}
+.home__main__productos__box--product{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.home__main__productos__box--product a{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}

@@ -1,0 +1,137 @@
+.home__header{
+    background-color: red;
+    display: flex;
+}
+.home__header--logo{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.home__header__nav{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.home__header__nav--ul--login--icon{
+    margin-left: 10px;
+}
+.home__header__nav--ul--login--box{
+    margin-left: 70px;
+}
+.home__header__nav--ul{
+    display: flex;
+    flex-direction: column;
+}
+.home__header__nav--ul--login--box-init{
+    display: none;
+}
+.home__header__nav--ul--login--box-init a{
+    text-transform: uppercase;
+}
+.home__header__nav--ul a{
+    color: white;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+/*Media Queries*/
+@media(max-width: 360px){
+    .home__header{
+        display: flex;
+    }
+    .home__header__nav--ul--login--box-init{
+        display: flex;
+    }
+    .home__header__nav--ul--login--box-init a{
+        color: white;
+        margin-left: 10px;
+    }
+    .home__header__nav{
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 20px
+    }
+    .home__header__nav--ul--login--icon{
+        display: none;
+    }
+    .home__header__nav--ul{
+        display: flex;
+        flex-direction: column;
+    }
+    /*Main*/
+    .home__main__productos{
+        display: flex;
+    }
+    .home__main__productos__box{
+        display: flex;
+    }
+    .home__main__productos__box--product{
+        padding-bottom: 20px;
+    }
+    /*Aside*/
+    .home__main__asides__tutoriales h2{
+        background-color: white;
+        margin-left: 5px;
+    }
+    .home__main__asides__publicidad h2{
+        background-color: white;
+        margin-left: 5px;
+    }
+    .home__main__asides{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .home__main__asides__publicidad--box img{
+        padding: 5px;
+    }
+}
+@media(min-width: 768px){
+    .home__header{
+        display: flex;
+    }
+    .home__header__nav--ul--login--box-init{
+        display: flex;
+    }
+    .home__header__nav--ul--login--box-init a{
+        color: white;
+        margin-left: 10px;
+    }
+    .home__header__nav{
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 20px
+    }
+    .home__header__nav--ul--login--icon{
+        display: none;
+    }
+    .home__header__nav--ul{
+        display: flex;
+        flex-direction: row;
+    }
+    /*Main*/
+    .home__main__productos{
+        display: flex;
+        flex-direction: row;
+    }
+    .home__main__productos__box{
+        display: flex;
+        flex-direction: row;
+    }
+    .home__main__productos__box--product{
+        padding-bottom: 20px;
+    }
+    /*Aside*/
+    .home__main__asides__tutoriales h2{
+        background-color: white;
+        margin-left: 5px;
+    }
+    .home__main__asides__publicidad h2{
+        background-color: white;
+        margin-left: 5px;
+    }
+    .home__main__asides{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .home__main__asides__publicidad--box img{
+        padding: 5px;
+    }
+}

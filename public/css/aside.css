@@ -1,0 +1,25 @@
+.home__main__asides{
+    background-image: url("/img/bg-2.png");
+}
+.home__main__asides__tutoriales--box {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+.home__main__asides__tutoriales--box h4{
+    padding: 20px;
+}
+.home__main__asides__tutoriales h2{
+    background-color: white;
+}
+.home__main__asides__publicidad--box{
+    background-color: white;
+    margin: 0;
+}
+.home__main__asides__publicidad h2{
+    background-color: white;
+}
+.home__main__asides__publicidad--box img{
+    width: 100%;
+}
